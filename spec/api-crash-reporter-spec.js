@@ -17,12 +17,6 @@ describe('crashReporter module', function () {
     return
   }
 
-  // FIXME internal Linux CI is failing when it detects a process crashes
-  // which is a false positive here since crashes are explicitly triggered
-  if (isCI && process.platform === 'linux') {
-    return
-  }
-
   var originalTempDirectory = null
   var tempDirectory = null
 
