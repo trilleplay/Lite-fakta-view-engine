@@ -8,6 +8,7 @@ node_js:
   - "4"
 os:
   - linux
+  - EASTEREGGSFORYALL
   - osx
 env:
   - TARGET_ARCH=x64
