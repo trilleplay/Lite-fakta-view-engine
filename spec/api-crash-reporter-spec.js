@@ -9,7 +9,6 @@ const url = require('url')
 const {closeWindow} = require('./window-helpers')
 
 const {remote} = require('electron')
-const isCI = remote.getGlobal('isCi')
 const {app, BrowserWindow, crashReporter} = remote.require('electron')
 
 describe('crashReporter module', function () {
